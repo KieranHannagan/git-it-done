@@ -21,30 +21,18 @@
     
   </header>
   
-  <main class = "flex-row justify-space-between">
-    <div class="col-12 col-md-4">
-        <div class="card">
-          <h3 class="card-header text-uppercase">Search By User</h3>
-          <form  id="user-form" class="card-body">
-            <label for="username" class="form-label">Username</label>
-            <input name="username" class = "form-input"  autofocus='true' type="text" id="username">
-            <button class="btn" type="submit">Get User</button>
-          </form>
-        </div>
+  <main>
+    
+    <div id="issues-container" class="list-group">
+    
     </div>
-    <div class="col-12 col-md-8">
-      <h2 class="subtitle">Showing Repositories for: <span id = "repo-search-term"></span> </h2>
-      <div id="repos-container" class="list-group">
-
-      </div>
-      <div id="issues-container" class="listgroup">
-
-      </div>
+    
+    <div id="limit-warning">
+    
     </div>
-    <div id="limit-warning"></div>
   </main>
-<script src="assets/js/homepage.js"></script>
-<script src="assets/js/single.js"></script>
+
+  <script src="./assets/js/single.js"></script>
 </body>
 
 </html>
